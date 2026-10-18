@@ -48,3 +48,26 @@ BepInEx\
 - **首次启动会卡约 20 秒**（窗口显示未响应），是补丁在生成 3,073 个汉字的字形图集，属正常现象。
 - `BepInEx\config\lsgs.zh.patch.cfg` 里的 `FontRegister` **必须保持 `none`**，改成 `all` 会导致卡死。
 - 修改配置文件前请先**完全关闭游戏**，否则退出时会被回写覆盖。
+
+## 许可证
+
+本补丁的插件代码与译文以 **MIT** 协议发布，见 [`LICENSE`](LICENSE)。
+
+打包内附带的第三方组件协议不同，均为原样分发、未作修改：
+
+| 组件 | 协议 | 全文 |
+|---|---|---|
+| BepInEx 5.4.23.4 | LGPL-2.1 | [`licenses/LGPL-2.1.txt`](licenses/LGPL-2.1.txt) |
+| UnityDoorstop 4.4.1 | LGPL-2.1 | [`licenses/LGPL-2.1.txt`](licenses/LGPL-2.1.txt) |
+| HarmonyX 2.10.2 | MIT | [`licenses/MIT-HarmonyX.txt`](licenses/MIT-HarmonyX.txt) |
+
+版权归属与合规说明详见 [`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md)。
+
+## 免责声明
+
+- 本补丁不含游戏本体文件，也不含任何字体文件（中文显示使用系统自带字体），
+  使用前请先自行获得游戏本体。
+- 游戏内文本及其译文版权归原权利所有，译文仅供学习交流使用，请勿用于商业用途。
+- 补丁仅修改运行时的显示文本，不触碰存档与游戏文件，但使用修改类工具的风险请自行评估，
+  因使用本补丁造成的任何问题由使用者自行承担。
+
